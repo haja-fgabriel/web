@@ -1,0 +1,240 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- TODO in HTML5 
+<!DOCTYPE html>
+ -->
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- TODO in HTML5
+            <meta charset="utf-8"> 
+        -->
+        <title>Lab 1 - HTML 4</title>
+        <!-- TODO in HTML5
+            <title>Lab 1 - HTML 5</title>
+        -->
+        <link rel="icon" href="http://www.scs.ubbcluj.ro/~hfir2522/lab1/extra/favicon.ico">
+    </head>
+
+    <body>
+        <form action="">
+            <table border="1" width="960"> <!-- TODO modifica-l in HTML5 -->
+                <tr><th><p>Cerere eliberare cazier judiciar</p></th></tr>
+                <tr>
+                    <td colspan="2">
+                        <table width="100%">
+                            <tr>
+                                <td ><label for="nume"><b>Subsemnatul(a)<br>(numele de familie)</b></label></td>
+                                <td colspan="1"> <input type="text" id="nume" name="nume" size="20"> </td>
+                                
+                                <td width="85"><label for="prenume"><b>Prenume</b></label></td>
+                                <td> <input type="text" id="prenume" name="prenume" size="20"> </td>
+                                <td colspan="5">
+                                    <label><b>Tip persoană:</b></label>
+
+                                    <input type="radio" name="tip_persoana" value="fizica"> <label>fizică</label> 
+                                    <input type="radio" name="tip_persoana" value="juridica"> <label>juridică</label> 
+                                </td>
+                            </tr>  
+                            <tr>
+                                <td ><label for="nume_anterior">Nume anterior:</label></td>
+                                <td  colspan="1"> 
+                                    <input type="text" id="nume_anterior" name="nume_anterior" size="20"> <br>
+                                    <input type="checkbox" id="casatorit" name="casatorit">
+                                    <label for="casatorit">Căsătorit(ă)</label>
+                                </td>
+                                <td rowspan="3" bgcolor="yellow"> <!-- TODO modfiica-l in HTML5 -->
+                                    <b>Adresa<br>domiliciului</b>
+                                </td>
+
+                                <td colspan="1" bgcolor="yellow"> <!-- TODO modfiica-l in HTML5 -->
+                                    <label for="domiciliu_localitate">Localitatea:</label>
+                                    <input type="text" id="domiciliu_localitate" name="domiciliu_localitate" size="16">
+                                </td>
+                                <td bgcolor="yellow"> <!-- TODO modfiica-l in HTML5 -->
+                                    <label for="domiciliu_strada">Strada:</label> <!--</td><td>-->
+                                    <input type="text" id="domiciliu_strada" name="domiciliu_strada" size="16">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="4">
+                                    <label for="data_nasterii"><b>Născut(ă) în:</b></label>
+
+                                    <input type="text" id="data_nasterii" name="data_nasterii" value="mm/dd/yyyy" size="10">
+                                    <!-- TODO in HTML5
+                                        <input type="date" name="data" size="10">
+                                    -->
+                                </td> 
+                                <td rowspan="4"> 
+                                    <label for="cnp"><b>CNP:</b></label> 
+                                    <input type="text" id="cnp" name="cnp" size="11"> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="yellow"> <!-- TODO modfiica-l in HTML5 -->
+                                    <label for="domiciliu_numar">Nr.:</label>
+                                    <input type="text" id="domiciliu_numar" name="domiciliu_numar" size="4">
+                                    <label for="domiciliu_bloc">Bloc:</label>
+                                    <input type="text" id="domiciliu_bloc" name="domiciliu_bloc" size="4">
+                                </td>
+                                <td bgcolor="yellow"> <!-- TODO modfiica-l in HTML5 -->
+                                    <label for="domiciliu_judet">Județ:</label>
+                                    <input type="text" id="domiciliu_judet" name="domiciliu_judet" size="4">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" bgcolor="gold"> <!-- TODO modfiica-l in HTML5 -->
+                                    <label><b>Locul<br>nașterii</b></label>
+                                </td>
+
+                                <td bgcolor="gold"> <!-- TODO modfiica-l in HTML5 -->
+                                    <label for="nastere_localitate">Localitatea:</label>
+                                    <input type="text" id="nastere_localitate" name="nastere_localitate" size="16">
+                                </td>
+                                <td bgcolor="gold"> <!-- TODO modfiica-l in HTML5 -->
+                                    <label for="nastere_strada">Strada:</label> 
+                                    <input type="text" id="nastere_strada" name="nastere_strada" size="16">
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td bgcolor="gold"> <!-- TODO modfiica-l in HTML5 -->
+                                    <label for="nastere_numar">Nr.:</label>
+                                    <input type="text" id="nastere_numar" name="nastere_numar" size="4">
+                                    
+                                    <label for="nastere_bloc">Bloc:</label> 
+                                    <input type="text" id="nastere_bloc" name="nastere_bloc" size="4">
+                                </td>
+                                <td bgcolor="gold"> <!-- TODO modfiica-l in HTML5 -->
+                                    <label for="nastere_judet">Județ:</label> 
+                                    <input type="text" id="nastere_judet" name="nastere_judet" size="4">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="tip_buletin"><b>Tip legitimație:</b></label>
+                                </td>
+                                <td>
+                                    <select id="tip_buletin" name="tip_buletin">
+                                        <option value="none">...</option>
+                                        <option value="bi">B.I.</option>
+                                        <option value="ci">C.I.</option>
+                                    </select>
+                                    <label for="serie_buletin"><b>Serie:</b></label> 
+                                    <input type="text" id="serie_buletin" size="2" name="serie_buletin"> 
+                                </td>
+                                <td>
+                                    <label for="numar_buletin"><b>Nr.:</b></label> 
+                                    <input type="text" id="numar_buletin" size="3" name="nr_buletin"> 
+                                </td>
+                                <td>
+                                    <label for="telefon">Telefon:</label> 
+                                    <input type="text" size="11" id="telefon" name="telefon"> 
+                                </td>
+                                
+                            </tr>
+
+
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td> <label for="motiv_eliberare"><b>Motiv(e)<br>eliberare</b></label> </td>
+                                <td>
+                                    <select id="motiv_eliberare" name="motiv_eliberare" multiple>
+                                        <option value="scoala_soferi">Școală de șoferi</option>
+                                        <option value="scoala_pilotaj">Școală de pilotaj</option>
+                                        <option value="interviu_angajare">Interviu angajare</option>
+                                        <option value="obtinere_licenta">Obținere diplomă licență</option>
+                                        <option value="proces_judecata">Proces judecată</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <label for="observatii">Observații:</label>
+                                </td>
+                                <td>
+                                    <textarea id="observatii" name="observatii" rows="4" cols="30"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"> <!-- TODO modifica-l in HTML5 -->
+                        <div>
+                            <input type="submit">
+                            <input type="reset">
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+        <form action="">
+            <table border="1"> <!-- TODO modifica in HTML5 -->
+                <tr>
+                    <th>
+                        Autentificare autoritate
+                    </th>
+                </tr>
+                <tr> 
+                    <td> <table> 
+                        <tr>
+                            <td> <label for="nume_prenume_autorizat"><b>Nume și prenume <br> autoritate:</b></label> </td>
+                            <td>
+                                <input type="text" size="25" id="nume_prenume_autorizat" name="nume_prenume_autorizat">
+                            </td>
+                            <td> <label for="numar_legitimatie"><b>Număr legitimație:</b></label></td>
+                            <td> <input type="text" id="numar_legitimatie" name="numar_legitimatie" size="8"></td>
+                        </tr>
+
+                    </table></td>
+                </tr>
+                <tr>
+                    <td align="center"> <!-- TODO modifica-l in HTML5 -->
+                        <div>
+                            <input type="submit">
+                            <input type="reset">
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+
+        <p>Observații:</p>
+        <ul>
+            <li> <p>Câmpurile <b>boldate</b> sunt obligatorii</p> </li>
+            <li><p>Acest formular se va completa doar de către personalul autorizat de Poliția Română</p></li>
+            <li>
+                <p>Ordinea în care se utilizează pagina</p>
+                <ol>
+                    <li><p>Se autentifică persoana autorizată</p> </li>
+                    <li><p>Se completează datele persoanei în cauză</p></li>
+                </ol>
+            </li>
+        </ul>
+        
+        <p>Autorii paginii:</p>
+        <ul>
+            <li><p>Cei mai tari membri ai grupei 223:</p>
+                <ol>
+                    <li><p>Haja Florin-Gabriel</p></li>
+                    <li><p>Dragomir Manuel-Alexandru</p></li>
+                    <li><p>Drăgan Maria</p></li>
+                </ol>
+            </li>
+            <li><p>Profesorul propunător al temei: Darius Bufnea</p></li>
+            
+        </ul>
+
+    </body>
+</html>
