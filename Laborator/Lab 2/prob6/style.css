@@ -1,0 +1,29 @@
+div.form {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+}
+
+div.form > label:nth-child(odd) {
+    text-align: right;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+div.form input[type="text"] {
+    border: 1px solid black;
+    background: url('square.png');
+    background-repeat: repeat-x;
+    color: dimgrey;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.5ch;
+    padding-left: 0.8ch;
+}
+
+div.form input[type="text"][maxlength="20"] {
+    width: 49ch;
+}
+
+div.form input[type="text"][maxlength="13"] {
+    width: 31.5ch;
+}

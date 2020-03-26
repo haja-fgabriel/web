@@ -1,0 +1,25 @@
+body > div {
+    border: 1px solid black;
+    display: grid;  
+    grid-template-columns: 160px 160px;
+    width: 340px;
+    row-gap: 16px;
+    column-gap: 16px;
+    padding: 16px;
+}
+
+div > div {
+    text-align: center;
+    background-color: #00FFFF;
+    padding: 6px;
+}
+
+img {
+    width: 128px;
+    height: 160px;
+}
+
+p {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}

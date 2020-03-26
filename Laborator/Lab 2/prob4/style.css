@@ -1,0 +1,74 @@
+body > div {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.social-bar li {
+    float: left;
+}
+
+.buton {
+    width: 84px;
+    height: 84px;
+    background: url("css-pr4.png");
+    background-position-y: 84px;
+}
+
+div.buton:hover {
+    background-position-y: 0px;
+}
+
+.facebook {
+    background-position-x: 0px;
+
+}
+.facebook:hover {
+    background-position-y: 0px;
+}
+
+.flickr {
+    background-position-x: -84px;
+}
+
+.dribble {
+    background-position-x: -168px;
+
+}
+
+.googleplus {
+    background-position-x: -252px;
+
+}
+
+.linkedin {
+    background-position-x: -336px;
+}
+
+.pinterest {
+    background-position-x: -420px;
+
+}
+
+.rss {
+    background-position-x: -504px;
+}
+
+.skype {
+    background-position-x: -588px;
+}
+
+.twitter {
+    background-position-x: -672px;
+
+}
+
+.vimeo {
+    background-position-x: -756px;
+}
+
+.youtube {
+    background-position-x: -840px;
+}

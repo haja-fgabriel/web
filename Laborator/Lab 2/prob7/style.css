@@ -1,0 +1,51 @@
+.alice::before {
+    position: absolute;
+    top: -20px;
+    background-image: url('deedee.png');
+}
+.bob::before {
+    background-image: url('dexter.png');
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+ul li {
+    position: relative;
+    display: block;
+    left: 111px;
+    margin: 1em 0 3.3em;
+    padding: 15px;
+    max-width: 22%;
+    min-height: 33%;
+    text-align: center;
+    border: 2px solid black;
+    background: #fff;
+    color: #333;
+    border-radius: 10px;
+}
+ul li::before {
+    position: absolute;
+    top: 0px;
+    left: -120px;
+    width: 100px;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+}
+ul li::after {
+    position: absolute;
+    top: 22px;
+    left: -13px;
+    width: 30px;
+    height: 18px;
+    background-color: white;
+    box-shadow: -2px 1px 0px black;
+    transform: skew(-35deg) rotate(24deg);
+    content: "";
+}

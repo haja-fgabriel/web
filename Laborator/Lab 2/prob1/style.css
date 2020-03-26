@@ -1,0 +1,21 @@
+p {
+    /* font-family: "Comic Sans MS"; */
+    font-size: medium;
+    
+}
+
+
+div > div {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    /* height: inherit; */
+    /* background-color: yellow; */
+}
+
+body > div {
+    display: inline-flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+}
