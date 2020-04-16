@@ -7,3 +7,6 @@ Web Programming - college subject
   
 - 2<sup>nd</sup> homework - HTML + CSS:
   - [index for all exercises](http://www.scs.ubbcluj.ro/~hfir2522/css)
+
+- 3<sup>rd</sup> homework - JavaScript:
+  - [index for all exercises](http://www.scs.ubbcluj.ro/~hfir2522/js)
