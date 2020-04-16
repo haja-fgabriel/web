@@ -1,0 +1,13 @@
+div {
+    height : 160px;
+}
+select.player-picker {
+    height : inherit;
+    width: 10em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+select.player-picker:focus {
+    height : inherit;
+    /* min-width: 20em; */
+}
