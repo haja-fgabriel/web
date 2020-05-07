@@ -1,0 +1,29 @@
+table {
+    border-spacing: 0;
+}
+
+td, th {
+    border : 1px solid black;
+    padding: 3px;
+}
+
+th > p {
+    display: inline-block;
+}
+
+th[data-sorting-order="none"] > p.sorting-order-mark:before {
+    content : '';
+}
+
+th[data-sorting-order="ascending"] > p.sorting-order-mark:before {
+    content : '→';
+}
+
+th[data-sorting-order="descending"] > p.sorting-order-mark:before {
+    content : '←';
+}
+
+td > p, th > p {
+    padding: 0;
+    margin: 1px;
+}
