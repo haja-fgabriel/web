@@ -10,3 +10,6 @@ Web Programming - college subject
 
 - 3<sup>rd</sup> homework - JavaScript:
   - [index for all exercises](http://www.scs.ubbcluj.ro/~hfir2522/js)
+
+- 4<sup>th</sup> homework - JavaScript with jQuery:
+  - [index for all exercises](http://www.scs.ubbcluj.ro/~hfir2522/jQuery)
