@@ -13,3 +13,7 @@ Web Programming - college subject
 
 - 4<sup>th</sup> homework - JavaScript with jQuery:
   - [index for all exercises](http://www.scs.ubbcluj.ro/~hfir2522/jQuery)
+  
+  - 4<sup>th</sup> homework - AJAX with PHP backend:
+  - [index for all exercises](http://www.scs.ubbcluj.ro/~hfir2522/ajax)
+
