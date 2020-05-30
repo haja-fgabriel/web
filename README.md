@@ -18,5 +18,5 @@ Web Programming - college subject
   - [index for all exercises](http://www.scs.ubbcluj.ro/~hfir2522/ajax)
   
 - 6<sup>th</sup> homework - PHP:
-  - [index for all exercises](http://www.scs.ubbcluj.ro/~hfir2522/ajax)
+  - [index for all exercises](http://www.scs.ubbcluj.ro/~hfir2522/php)
 
