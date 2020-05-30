@@ -1,0 +1,23 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+div.train-route {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+}
+div.train-route > div {
+    display: grid;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 6px;
+    row-gap: 12px;
+}
+
+div.train-route > div > div {
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    column-gap: 16px;
+}
